@@ -90,14 +90,14 @@ body{
 }
 .backwheel{
     position: relative;
-    top:323px;
-    left:425px;
+    top:363px;
+    left:429px;
 }
 
 .frontwheel{
     position: relative;
-    left: 594px;
-    top: 323px;
+    left: 599px;
+    top: 363px;
 }
 
 @keyframes wheel{
@@ -134,7 +134,7 @@ body{
     animation: car 1s linear infinite;
     position: relative;
     left:700px;
-    top:136px;
+    top:177px;
 }
 
 h1{
