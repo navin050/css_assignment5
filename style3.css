@@ -1,0 +1,51 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+.card{
+    width:100px;
+    height:100px;
+    background-color:green;
+    margin:20px 30px 30px 30px;
+    position: relative;
+    left:550px;
+    top: 20px; 
+    transition-duration: 2s;
+}
+
+.child1:hover{
+    width: 300px;
+}
+
+.child2:hover{
+    width: 300px;
+    height:300px;
+}
+
+.child3:hover{
+    width: 300px;
+    transition-timing-function: linear;
+}
+
+.child4:hover{
+    width: 300px;
+    transition-timing-function: ease;
+}
+
+.child5:hover{
+    width: 300px;
+    transition-timing-function:ease-in;
+}
+
+.child6:hover{
+    width:300px;
+    transition-timing-function: ease-out;
+}
+
+.child7:hover{
+    width:300px;
+    transition-timing-function: ease-in-out;
+}

@@ -1,0 +1,121 @@
+body{
+    background-color: yellow;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+span{
+    width:130px;
+    height:130px;
+    background-color: cornflowerblue;
+    margin:40px 30px 30px 30px;
+  
+}
+
+p{
+    display: flex;
+    position: relative;
+    left:400px;
+    top: 20px; 
+}
+
+
+li{
+    display: flex;
+    list-style-position: outside;
+}
+
+
+.card1{
+    transform: skew(-20deg);
+    animation: child1 3s linear 0s infinite alternate ;
+}
+
+@keyframes child1 {
+    from{
+        transform: skew(-20deg);
+    }
+    to{
+        transform: skew(20deg);
+    }
+}
+
+.card2{
+    background-color:#781C68;
+    transform:skewY(20deg);
+    animation:child2 3s linear 0s infinite alternate  ;
+}
+
+@keyframes child2 {
+    from{
+        transform: skewY(20deg);
+    }
+    to{
+        transform: skewY(-20deg);
+    }
+}
+
+.card3{
+    background-color:#FD841F ;
+    transform: rotate(0deg);
+    animation: child3 3s ease-out 0s infinite normal;
+}
+
+@keyframes child3{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) ;
+    }
+}
+
+.card4{
+    background-color:#319DA0;
+    /* border: 3px solid #42855B; */
+    transform: rotateX(0deg);
+     animation: child4 2s linear 0s infinite alternate;
+}
+@keyframes child4{
+    from{
+        transform:rotateX(0deg);
+    }
+    to{
+        transform: rotateX(70deg);
+    }
+}
+
+.card5{
+    background-color:#F94892;
+    /* border: 3px solid #E80F88; */
+    transform: rotateY(0deg);
+    animation: child5 2s linear 0s infinite alternate;
+}
+
+@keyframes child5{
+    from{
+        transform:rotateY(0deg);
+    }
+    to{
+        transform: rotateY(65deg);
+    }
+}
+
+.card6{
+    background-color:#3D8361;
+    /* border: 2px solid #1C6758; */
+    transform: rotate(20deg);
+    animation: child6 2s linear 0s infinite alternate;
+}
+
+@keyframes child6{
+    from{
+        transform:rotate(20deg);
+    }
+    to{
+        transform: rotate(-90deg);
+    }
+    
+}
